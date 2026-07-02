@@ -70,7 +70,7 @@
 | Task | sf CLI | sfdx (legacy) |
 |------|--------|---------------|
 | Open org in browser | `sf org open -o <alias>` | `sfdx force:org:open -u <alias>` |
-| Open specific page | `sf org open -o <alias> -p lightning/setup/ApexClasses` | — |
+| Open specific page | `sf org open --path "lightning/setup/ApexClasses/home"` | — |
 | Display org info | `sf org display -o <alias>` | `sfdx force:org:display -u <alias>` |
 | List all orgs | `sf org list` | `sfdx force:org:list` |
 | List all orgs (clean stale) | `sf org list --clean` | `sfdx force:org:list --clean` |
